@@ -8,7 +8,7 @@ class Usuarios {
 
         let persona = { id, nombre, sala };
         this.personas.push(persona);
-        return this.personas;
+        return this.getPersonasPorSala(sala);
     }
 
     getPersona(id) {
